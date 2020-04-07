@@ -26,7 +26,7 @@ Other social media channels:
 
 ## Code examples
 
-All examples listed here does not replicate the architecture of our code base with "The girl who met her shadow", it just gives a simple code example of our implementation. Also there will be a lot of copy pasting and hand written code, so please create a ticket if you spot any typos or mistakes. Thanks.
+All examples listed here does not replicate the architecture of our code base with "The girl who met her shadow", it just gives a simple code example of our implementations. Also, there will be a lot of copy pasting and hand written code here, so please create a ticket if you spot any typos or mistakes. Thanks.
 
 1. Physics
    - [Platformer Collisions](physics/collisions.md)
