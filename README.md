@@ -1,4 +1,4 @@
-# unity2d-examples
+# Unity2d Platformer Examples
 
 This repository is an archive of example code that we used for our *platformer* game "The girl who met her shadow".
 
