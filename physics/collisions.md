@@ -4,7 +4,7 @@
 - [Examples](#examples)
   - [Moving a unit](#moving-a-unit)
   - [Check if unit is grounded](#check-if-unit-is-grounded)
-
+---
 Collisions are probably one of the first important tasks to take on, and an unstable collision detection will become a pain in the ass.
 We aren't using rigidbody to determine our collisions, so we'll need to find a easy way to get back collision data.
 
