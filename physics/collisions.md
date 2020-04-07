@@ -111,6 +111,8 @@ public BoxCollider2D bodyCollider;
 
 public void MoveUnit(Vector2 moveVelocity, LayerMask layerMask)
 {
+    // NOTE: Make sure your moveVelocity x and y is multiplied with Time.deltaTime for smooth movement
+
     // Get horizontal speed
     float hspeed = moveVelocity.x;
 
@@ -141,7 +143,7 @@ public void MoveUnit(Vector2 moveVelocity, LayerMask layerMask)
     }
 
     // Finally move the unit
-    transform.position = (Vector2) transform.position + new Vector2(hspeed * World.TimeFactor(), vspeed * World.TimeFactor());
+    transform.position = (Vector2) transform.position + new Vector2(hspeed, vspeed);
 }
 ```
 
